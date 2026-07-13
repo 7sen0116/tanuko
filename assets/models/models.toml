@@ -1,6 +1,6 @@
 [[models]]
 name = "tanuko_AR"
-scale = 2
+scale = 1
 enablebreathing = true
 billboarding=false
 [models.canvasOffset]
