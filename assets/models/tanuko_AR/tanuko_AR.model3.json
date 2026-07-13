@@ -6,7 +6,18 @@
 			"tanuko_AR.1024/texture_00.png"
 		],
 		"Physics": "tanuko_AR.physics3.json",
-		"DisplayInfo": "tanuko_AR.cdi3.json"
+		"Motions": {
+			"Idle": [
+				{
+					"File": "idle.motion3.json"
+				}
+			],
+			"Tap": [
+				{
+					"File": "action.motion3.json"
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
@@ -21,6 +32,12 @@
 			"Target": "Parameter",
 			"Name": "LipSync",
 			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": ""
 		}
 	]
 }
