@@ -1,5 +1,5 @@
 [[models]]
-name = "Rice"
+name = "tanuko_AR"
 scale = 1
 enablebreathing = true
 billboarding=false
