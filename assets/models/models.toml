@@ -1,8 +1,8 @@
 [[models]]
 name = "Tanuko"
-scale = 10
+scale = 1
 enablebreathing = true
-billboarding=false
+billboarding=true
 [models.canvasOffset]
 x = -0.25
 [models.position]
