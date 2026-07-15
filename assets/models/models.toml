@@ -2,7 +2,7 @@
 name = "Tanuko"
 scale = 1
 enablebreathing = true
-billboarding=t
+billboarding=false
 [models.canvasOffset]
 x = -0.25
 [models.position]
