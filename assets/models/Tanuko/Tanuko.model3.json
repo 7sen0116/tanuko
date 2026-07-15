@@ -1,0 +1,44 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Tanuko.moc3",
+		"Textures": [
+			"Tanuko.1024/texture_00.png"
+		],
+		"Physics": "Tanuko.physics3.json",
+		"DisplayInfo": "Tanuko.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "idle.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "action.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "TapBody"
+		}
+	]
+}
