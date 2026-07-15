@@ -1,23 +1,15 @@
 [[models]]
 name = "Tanuko"
-billboarding = false
-enablebreathing = true
 scale = 1
-
-[models.position]
-x = 0
-y = 0
-z = 0
-
-[models.rotation]
-x = 0
-y = 0
-z = 0
-
+enablebreathing = true
+billboarding=t
 [models.canvasOffset]
-x = 0
+x = -0.25
+[models.position]
 y = 0
+[models.hitInfo]
+HitAreaBody = "TapBody"
 
-[global]
+[[global]]
 allowModeSwitch = true
 startupMode = 0
